@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <!--NVIGATION BAR-->
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="index.html">Contact</a>
+        <a href="index.html">News</a>
+        
+        <div class="dropdown">
+            <button class="dropbtn">Platform 
+                <i class=""></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">PS5</a>
+                <a href="#">PS4</a>
+                <a href="#">PC</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--SLIDSHOW BANNER IMAGES-->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="SPimg (1).jpeg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="SPimg (2).jpeg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="SPimg (3).jpeg" style="width:100%">
+        </div>
+        
+        </div>
+        <br>
+        
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    <div class="music">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+  
+  </div>
+  
+  
+    <br>
+
+    <div class="about">
+      <h1>SPIDER MAN</h1>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+    </script>
+
+
+
+<div class="content">
+
+    <img src="venomimg.jpg"  >    
+      
+  <div class="content_1">
+    <p>Spider-Men, Peter Parker and Miles Morales, return for an exciting new adventure 
+      in the critically acclaimed Marvel's Spider-Man franchise for PS5.
+    </p><br>
+    <p>Swing, jump and utilise the new Web Wings to travel across Marvel's New York,
+      quickly switching between Peter Parker and Miles Morales to experience different
+      stories and epic new powers, as the iconic villain Venom threatens to 
+      destroy their lives, their city and the ones they love.
+    </p>
+  </div>
+  <div class="content_2">
+    <h2>What is Marvel's Spider-Man 2?</h2>
+    <br>
+    <h3>
+      THE NEXT GAME IN THE MARVEL'S SPIDER-MAN FRANCHISE, COMING TO THE PLAYSTATION® CONSOLE
+    </h3>
+  </div>
+</div>
+
+  <div class="information">
+    <img src="MSM2_Oct20.webp">
+    <img src="platformPS5.webp">
+    <img src="PublisherPSS.webp">
+    <img src="RP_921.webp">
+
+  </div>
+
+  <div class="footer">
+    <div class="footer_top">
+      <img src="Marvel_logo.png">
+      <h2>&copy; 2023 MARVEL</h2>
+      <h2>&copy; Sony Interactive Entertainment LLC.</h2>
+      <h2>Developed by Insomniac Games, Inc.</h2>
+  </div>
+  <div class="footer_bottom">
+    <img src="insomniac-games-logo-dark.svg">
+    <img src="PS_Studios_footer.svg">
+    <div class="text_1">
+      <h2>Burbank Studio</h2>
+      <h3>2255 N Ontario St.</h3>
+      <h3>Suite 550</h3>
+      <h3>Burbank, CA 91504</h3>
+    </div>
+    <div class="text_2">
+      <h2>Durham Studio</h2>
+      <h3>7806 NC Highway 751</h3>
+      <h3>Suite 300</h3>
+      <h3>Durham, NC 27713</h3>
+    </div>
+</div>  
+
+</body>
+</html>
