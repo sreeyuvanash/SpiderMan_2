@@ -242,10 +242,7 @@ body{
   0% {opacity: 0;}
   100% {opacity: 0;}
 }
-
-
-
-
+/*intro animation*/
 .music {
     margin: auto;
     display: block;
@@ -274,42 +271,42 @@ body{
 }
 
 .music .bar:nth-child(1){
-    background: #b65252;
+    background: rgb(167, 0, 0);
     animation-delay: 1s;
 }
 .music .bar:nth-child(2){
-    background: pink;
+    background: black;
     animation-delay: .8s;
 }
 .music .bar:nth-child(3){
-    background: #b65252;
+    background: rgb(167, 0, 0);
     animation-delay: .6s;
 }
 .music .bar:nth-child(4){
-    background: pink;
+    background: black;
     animation-delay: .4s;
 }
 .music .bar:nth-child(5){
-    background: #b65252;
+    background: rgb(167, 0, 0);
     animation-delay: .2s;
 }
 .music .bar:nth-child(6){
-    background: pink;
+    background: black;
     animation-delay: .2s;
 }
 .music .bar:nth-child(7){
-    background: #b65252;
+    background: rgb(167, 0, 0);
     animation-delay: .4s;
 }
 .music .bar:nth-child(8){
-    background: pink;
+    background: black;
     animation-delay: .6s;
 }
 .music .bar:nth-child(9){
-    background: #b65252;
+    background: rgb(167, 0, 0);
     animation-delay: .8s;
 }
 .music .bar:nth-child(10){
-    background: pink;
+    background: black;
     animation-delay: 1s;
 }
